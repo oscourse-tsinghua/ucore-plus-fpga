@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1510670872">
+  <File Type="BITSTR-NKY" Name="SimpleArithmeticAXI_v1_0.nky"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BITSTR-SYSDEF" Name="SimpleArithmeticAXI_v1_0.sysdef"/>
+  <File Type="BG-DRC" Name="SimpleArithmeticAXI_v1_0.drc"/>
+  <File Type="BITSTR-LTX" Name="SimpleArithmeticAXI_v1_0.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="SimpleArithmeticAXI_v1_0_methodology_drc_routed.rpt"/>
+  <File Type="BG-BGN" Name="SimpleArithmeticAXI_v1_0.bgn"/>
+  <File Type="BITSTR-MMI" Name="SimpleArithmeticAXI_v1_0.mmi"/>
+  <File Type="BITSTR-BMM" Name="SimpleArithmeticAXI_v1_0_bd.bmm"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="SimpleArithmeticAXI_v1_0_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="SimpleArithmeticAXI_v1_0.rbt"/>
+  <File Type="ROUTE-DRC-RPX" Name="SimpleArithmeticAXI_v1_0_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="SimpleArithmeticAXI_v1_0.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="SimpleArithmeticAXI_v1_0_methodology_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="SimpleArithmeticAXI_v1_0.bin"/>
+  <File Type="BG-BIT" Name="SimpleArithmeticAXI_v1_0.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="SimpleArithmeticAXI_v1_0_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="SimpleArithmeticAXI_v1_0_postroute_physopt.dcp"/>
+  <File Type="RDI-RDI" Name="SimpleArithmeticAXI_v1_0.vdi"/>
+  <File Type="ROUTE-CLK" Name="SimpleArithmeticAXI_v1_0_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="SimpleArithmeticAXI_v1_0_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="SimpleArithmeticAXI_v1_0_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="SimpleArithmeticAXI_v1_0_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="SimpleArithmeticAXI_v1_0_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="SimpleArithmeticAXI_v1_0_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="SimpleArithmeticAXI_v1_0_power_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="SimpleArithmeticAXI_v1_0_reports.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="SimpleArithmeticAXI_v1_0_power_summary_routed.pb"/>
+  <File Type="PA-TCL" Name="SimpleArithmeticAXI_v1_0.tcl"/>
+  <File Type="ROUTE-PWR" Name="SimpleArithmeticAXI_v1_0_power_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="SimpleArithmeticAXI_v1_0_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="SimpleArithmeticAXI_v1_0_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="SimpleArithmeticAXI_v1_0_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="SimpleArithmeticAXI_v1_0_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="SimpleArithmeticAXI_v1_0_routed_error.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="SimpleArithmeticAXI_v1_0_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="SimpleArithmeticAXI_v1_0_postplace_pwropt.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="SimpleArithmeticAXI_v1_0_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="SimpleArithmeticAXI_v1_0_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="SimpleArithmeticAXI_v1_0_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="SimpleArithmeticAXI_v1_0_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="SimpleArithmeticAXI_v1_0_io_placed.rpt"/>
+  <File Type="OPT-HWDEF" Name="SimpleArithmeticAXI_v1_0.hwdef"/>
+  <File Type="OPT-DRC" Name="SimpleArithmeticAXI_v1_0_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="SimpleArithmeticAXI_v1_0_opt.dcp"/>
+  <File Type="PWROPT-DCP" Name="SimpleArithmeticAXI_v1_0_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="SimpleArithmeticAXI_v1_0_placed.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/SimpleArithmeticAXI_1.0/hdl/SimpleArithmeticAXI_v1_0_S00_AXI.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/SimpleArithmeticAXI_1.0/hdl/SimpleArithmeticAXI_v1_0.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/SimpleArithmeticAXI_1.0/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="SimpleArithmeticAXI_v1_0"/>
+      <Option Name="TopRTLFile" Val="$PPRDIR/SimpleArithmeticAXI_1.0/hdl/SimpleArithmeticAXI_v1_0.vhd"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

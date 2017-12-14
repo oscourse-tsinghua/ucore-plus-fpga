@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Tue Nov 14 15:31:16 2017
+# Process ID: 10471
+# Current directory: /home/tinytangent/ucore-plus-fpga/ip_repo/edit_ReconfigurationTest_v1_0.runs/OpUnitSub_synth_1
+# Command line: vivado -log OpUnit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source OpUnit.tcl
+# Log file: /home/tinytangent/ucore-plus-fpga/ip_repo/edit_ReconfigurationTest_v1_0.runs/OpUnitSub_synth_1/OpUnit.vds
+# Journal file: /home/tinytangent/ucore-plus-fpga/ip_repo/edit_ReconfigurationTest_v1_0.runs/OpUnitSub_synth_1/vivado.jou
+#-----------------------------------------------------------
+source OpUnit.tcl -notrace

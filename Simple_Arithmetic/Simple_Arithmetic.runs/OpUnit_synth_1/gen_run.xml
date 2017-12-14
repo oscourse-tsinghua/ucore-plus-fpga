@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="OpUnit_synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1510663041">
+  <File Type="RDS-UTIL-PB" Name="OpUnit_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="OpUnit_utilization_synth.rpt"/>
+  <File Type="RDS-RDS" Name="OpUnit.vds"/>
+  <File Type="RDS-DCP" Name="OpUnit.dcp"/>
+  <File Type="PA-TCL" Name="OpUnit.tcl"/>
+  <File Type="REPORTS-TCL" Name="OpUnit_reports.tcl"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/OpUnit">
+    <File Path="$PSRCDIR/sources_1/new/OpUnitAdd.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="OpUnit"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/OpUnit">
+    <File Path="$PSRCDIR/sources_1/new/OpUnitAdd.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="OpUnit"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

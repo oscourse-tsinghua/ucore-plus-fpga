@@ -1,0 +1,22 @@
+Command: pr_verify -full_check -initial /home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.runs/impl_2/TopLevelDesign_wrapper_routed.dcp -additional /home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.runs/impl_4/TopLevelDesign_wrapper_routed.dcp -file impl_4_pr_verify.log
+Tue Nov 14 22:56:17 2017
+
+INFO: [Constraints 18-1020] PR Verify Summary:
+DCP1: /home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.runs/impl_2/TopLevelDesign_wrapper_routed.dcp
+  Number of reconfigurable modules compared = 1
+  Number of partition pins compared         = 96
+  Number of static tiles compared           = 2436
+  Number of static sites compared           = 417
+  Number of static cells compared           = 1884
+  Number of static routed nodes compared    = 25290
+  Number of static routed pips compared     = 23430
+
+DCP2: /home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.runs/impl_4/TopLevelDesign_wrapper_routed.dcp
+  Number of reconfigurable modules compared = 1
+  Number of partition pins compared         = 96
+  Number of static tiles compared           = 2436
+  Number of static sites compared           = 417
+  Number of static cells compared           = 1884
+  Number of static routed nodes compared    = 25290
+  Number of static routed pips compared     = 23430
+INFO: [Vivado 12-3253] PR_VERIFY: check points /home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.runs/impl_2/TopLevelDesign_wrapper_routed.dcp and /home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.runs/impl_4/TopLevelDesign_wrapper_routed.dcp are compatible

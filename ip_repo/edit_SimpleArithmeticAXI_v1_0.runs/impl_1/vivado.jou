@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Tue Nov 14 22:48:31 2017
+# Process ID: 7170
+# Current directory: /home/tinytangent/ucore-plus-fpga/ip_repo/edit_SimpleArithmeticAXI_v1_0.runs/impl_1
+# Command line: vivado -log SimpleArithmeticAXI_v1_0.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source SimpleArithmeticAXI_v1_0.tcl -notrace
+# Log file: /home/tinytangent/ucore-plus-fpga/ip_repo/edit_SimpleArithmeticAXI_v1_0.runs/impl_1/SimpleArithmeticAXI_v1_0.vdi
+# Journal file: /home/tinytangent/ucore-plus-fpga/ip_repo/edit_SimpleArithmeticAXI_v1_0.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source SimpleArithmeticAXI_v1_0.tcl -notrace

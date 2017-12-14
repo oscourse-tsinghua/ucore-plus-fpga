@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="TopLevelDesign_SimpleArithmeticAXI_0_0_synth_1" LaunchDir="/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.runs/TopLevelDesign_SimpleArithmeticAXI_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="TopLevelDesign_OpUnit_0_0_synth_1" LaunchDir="/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.runs/TopLevelDesign_OpUnit_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="TopLevelDesign_SimpleArithmeticAXI_0_0_synth_1"/>
+		<Parent Id="TopLevelDesign_OpUnit_0_0_synth_1"/>
+	</Run>
+</Runs>
+

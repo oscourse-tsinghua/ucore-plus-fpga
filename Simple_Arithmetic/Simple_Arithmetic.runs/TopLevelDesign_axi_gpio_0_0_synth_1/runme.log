@@ -1,0 +1,68 @@
+
+*** Running vivado
+    with args -log TopLevelDesign_axi_gpio_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopLevelDesign_axi_gpio_0_0.tcl
+
+
+****** Vivado v2017.3 (64-bit)
+  **** SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+  **** IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source TopLevelDesign_axi_gpio_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1260.406 ; gain = 77.996 ; free physical = 122 ; free virtual = 3607
+INFO: [Synth 8-638] synthesizing module 'TopLevelDesign_axi_gpio_0_0' [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_axi_gpio_0_0/synth/TopLevelDesign_axi_gpio_0_0.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'axi_gpio' [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:1358]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (1#1) [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (1#1) [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (1#1) [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (1#1) [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (2#1) [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (3#1) [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (4#1) [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:178]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (5#1) [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (6#1) [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:178]
+INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (7#1) [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:1358]
+INFO: [Synth 8-256] done synthesizing module 'TopLevelDesign_axi_gpio_0_0' (8#1) [/home/tinytangent/ucore-plus-fpga/Simple_Arithmetic/Simple_Arithmetic.srcs/sources_1/bd/TopLevelDesign/ip/TopLevelDesign_axi_gpio_0_0/synth/TopLevelDesign_axi_gpio_0_0.vhd:84]
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1304.938 ; gain = 122.527 ; free physical = 315 ; free virtual = 3621
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1304.938 ; gain = 122.527 ; free physical = 281 ; free virtual = 3587
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 1681.953 ; gain = 0.000 ; free physical = 172 ; free virtual = 2898
+Finished Constraint Validation : Time (s): cpu = 00:00:30 ; elapsed = 00:00:45 . Memory (MB): peak = 1681.953 ; gain = 499.543 ; free physical = 213 ; free virtual = 2941
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:30 ; elapsed = 00:00:45 . Memory (MB): peak = 1681.953 ; gain = 499.543 ; free physical = 213 ; free virtual = 2941
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:45 . Memory (MB): peak = 1681.953 ; gain = 499.543 ; free physical = 214 ; free virtual = 2942
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:45 . Memory (MB): peak = 1681.953 ; gain = 499.543 ; free physical = 195 ; free virtual = 2924
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:45 . Memory (MB): peak = 1681.953 ; gain = 499.543 ; free physical = 166 ; free virtual = 2894
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:55 . Memory (MB): peak = 1681.953 ; gain = 499.543 ; free physical = 652 ; free virtual = 2907
+Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:55 . Memory (MB): peak = 1681.953 ; gain = 499.543 ; free physical = 643 ; free virtual = 2898
+Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:00:55 . Memory (MB): peak = 1681.953 ; gain = 499.543 ; free physical = 640 ; free virtual = 2897
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:56 . Memory (MB): peak = 1681.953 ; gain = 499.543 ; free physical = 1159 ; free virtual = 3418
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:56 . Memory (MB): peak = 1681.953 ; gain = 499.543 ; free physical = 1158 ; free virtual = 3418
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:00:56 . Memory (MB): peak = 1681.953 ; gain = 499.543 ; free physical = 1158 ; free virtual = 3418
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:00:56 . Memory (MB): peak = 1681.953 ; gain = 499.543 ; free physical = 1158 ; free virtual = 3418
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:56 . Memory (MB): peak = 1681.953 ; gain = 499.543 ; free physical = 1158 ; free virtual = 3418
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:00:56 . Memory (MB): peak = 1681.953 ; gain = 499.543 ; free physical = 1158 ; free virtual = 3418
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |     9|
+|3     |LUT3 |     8|
+|4     |LUT4 |    11|
+|5     |LUT5 |    11|
+|6     |LUT6 |    12|
+|7     |FDRE |    60|
+|8     |FDSE |     8|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:56 . Memory (MB): peak = 1681.953 ; gain = 499.543 ; free physical = 1158 ; free virtual = 3418
+synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:57 . Memory (MB): peak = 1681.953 ; gain = 512.918 ; free physical = 1188 ; free virtual = 3451

@@ -1,0 +1,44 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Tue Nov 14 22:54:08 2017
+| Host         : tinytangent_laptop1 running 64-bit Arch Linux
+| Command      : report_drc -file TopLevelDesign_wrapper_drc_opted.rpt -pb TopLevelDesign_wrapper_drc_opted.pb -rpx TopLevelDesign_wrapper_drc_opted.rpx
+| Design       : TopLevelDesign_wrapper
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 1
++---------+----------+---------------------------------+------------+
+| Rule    | Severity | Description                     | Violations |
++---------+----------+---------------------------------+------------+
+| HDPR-26 | Warning  | Improper Pblock column boundary | 1          |
++---------+----------+---------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+HDPR-26#1 Warning
+Improper Pblock column boundary  
+The Reconfigurable Pblock 'pblock_OpUnit_e_1' has a 'left' edge that terminates on an improper column boundary at tile 'CLBLL_R_X51Y99' (SLICE_X80Y99 SLICE_X81Y99).
+Resolution: Set the Pblock property SNAPPING_MODE to value of ON using the following constraint, or modify the X specification of the pblock to avoid this edge.
+Example: set_property SNAPPING_MODE ON [get_pblocks 'pblock_OpUnit_e_1']
+Please refer to the Xilinx Partial Reconfiguration User Guide.
+Related violations: <none>
+
+
